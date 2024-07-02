@@ -1,47 +1,126 @@
-img{
-    width : 500px;
-  }
-  
-  .flex {
-    display: flex;
-    justify-content: space-around;
-  }
-  .border{
-    border-radius: 10px;
-    border: 1px solid black;
-    padding : 10px;
-  }
-  #garantie{
-    margin-left : 20px;
-  }
-  input[type='checkbox']{
-    width:20px;
-    height : 20px;
-  }
-  .important {
-    color : red;
-    font-weight: bold;
-  }
-  .vert{
-    color : green;
-    font-weight: bold;
-  }
-  #prix {
-    font-size: 40px;
-  }
-  #barre {
-    text-decoration: line-through;
-  }
-  
-  button{
-    background-color: green;
-    color:  white;
-    padding: 20px;
-    width: 300px;
-    border-radius: 40px;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .center {
-    text-align: center
-  }
+@font-face {
+    font-family: 'OpenSans';
+    src: url('font/OriginalSurfer-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'safety';
+    src: url('font/Satisfy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 13;
+}
+.affiche{
+    width: 600px; height: 700px;
+    display: block;
+    margin: auto;
+}
+h2{
+    color: #d95723;
+    font-family: safety;
+    font-size: 30;
+}
+.page{
+    color: red;
+    font-family: safety;
+}
+.real{
+    width: 700px; height: 400px;
+    display: block;
+    margin: auto;
+}
+h1{
+    color: orange;
+    text-align: center;
+    font-family: 'safety';
+    font-size: 60;
+}
+.logo{
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+.margo{
+    width: 500px; height: 400px;
+    display: block;
+    margin: auto;  
+}
+.brad{
+    width: 600px; height: 400px; 
+    display: block;
+    margin: auto;   
+}
+.toby{
+    width: 600px; height: 400px;
+    display: block;
+    margin: auto;   
+}
+#message{
+    height: 100px; width: 100px;
+}
+.notes{
+    font-size: 40%;
+}
+body{
+    font-family: 'OpenSans', sans-serif;
+}
+.presentation{
+    text-align: center;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar button {
+    background-color: rgb(255, 111, 0);
+    color :white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+.navbar a{
+    display: block;
+    color :rgb(165, 89, 42);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.navbar .content{
+    position: absolute;
+    background-color: rgb(223, 190, 120);
+    min-width: 100px;
+    display: none;
+}
+.navbar:hover .content{
+    display: block;
+}
+.navbar:hover button{
+    background-color: rgb(255, 189, 47);
+}
+.navbar a:hover{
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+.liens{
+    list-style-type: none;
+    color: orange; 
+   
+}
+
+.reper2{
+    text-align: center;
+}
+.global{
+    color: orange !important;
+}
+.commentaire{
+    color: orange; 
+}

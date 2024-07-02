@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>page4</title>
+     <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class ="navbar">
+            <button>Menu</button>
+            <div class="content">
+                <a href="ciné.html">Accueil</a>
+                <a href="page2.html">Presentation</a>
+                <a href="page3.html">Avis & commentaire</a>
+                <a href="page4.html">Contact</a>
+            </div>
+           </div> 
+        <form action="traitement.php" method="POST" >
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom...">
+            <br>
+            <br>
+            <label for="nom">Prenom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Votre prenom...">
+            <br>
+            <br>
+            <label for="age">Age</label>
+            <input type="number" min="0" id="age" name="age" >
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="message">Message</label><br>
+            <textarea cols="40" rows="15" placeholder="Ecrivez ici votre message"></textarea><br>
+            <br>
+            <br>
+            <label for="cgv">Cocher pour avoir des mails promotionnels</label>
+            <input type="checkbox" id="cgv" name="cgv">
+            <br>
+            <br>
+            <label for="cgv">Cocher pour avoir des mails  sur les nouveaux films</label>
+            <input type="checkbox" id="cgv" name="cgv">
+            <br>
+            <br>
+            <input type="submit"  class="btn btn-success" value="Envoyer">
+
+            <br>
+            <br>
+                <p>Veuillez retrouver ci ci-dessous nos liens de réseau</p>
+                <ul class="liens">
+                <li><a href="https://www.youtube.com/@allocine">Youtube</a></li>
+                <li><a href="https://www.instagram.com/allocine/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/allocine">Iacebook</a></li>
+                <li><a href="https://twitter.com/allocine">Twitter</a></li>
+                </ul>
+                    
+    </body>
+</html>
